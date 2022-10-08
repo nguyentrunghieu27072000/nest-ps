@@ -1,0 +1,7 @@
+database:
+    type: 'postgres'
+    host: '192.168.107.14'
+    port: 5432,
+    username: 'admin'
+    password: 'admin'
+    dbName: 'MyMigrationDB'
