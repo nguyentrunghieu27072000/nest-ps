@@ -12,9 +12,9 @@ export const typeOrmConfig = {
       username: database.username,
       password: database.password,
       database: database.dbName,
-      entities: [__dirname + '/../entity/**/*.ts'],
+      entities: [__dirname + '/../**/*.entity.{js,ts}'],
       synchronize: false,
-      migrations: [__dirname + '/../database/migrations/**/*.ts'],
+      migrations: [__dirname + '/../database/migrations/*.ts'],
     };
   },
 };

@@ -1,6 +1,6 @@
 database:
     type: 'postgres'
-    host: '192.168.107.14'
+    host: '192.168.0.108'
     port: 5432,
     username: 'admin'
     password: 'admin'
